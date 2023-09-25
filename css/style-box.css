@@ -104,12 +104,6 @@ img {
   max-width: 990px;
 }
 
-.d-lg-block + div {
-  border: 10px solid red;
-}
-.mox-btn {
-  color: red;
-}
 .mox-bootstrap .btn-primary {
   background: var(--color-bronze);
   border: none;
