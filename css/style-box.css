@@ -43,6 +43,7 @@ body {
   background: black;
   color: white;
   display: flex;
+  justify-self: center;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -56,38 +57,11 @@ html {
   padding: 0 5rem;
 }
 
-/*
-
-section {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 2em;
-  gap: 2em;
-  max-width: 1400px;
+.mox-bootstrap {
+  justify-self: center;
+  max-width: 990px;
+  padding: 1rem;
 }
-
-.car {
-  display: flex;
-  flex-direction: column;
-  
-
-  flex: 1;
-  flex-basis: 50rem;
-  padding: 0.5em;
-  border: 2px solid var(--color-bronze);
-  border-radius: 5px;
-}
-img {
-  width: 100%;
-}
-
-.price {
-  margin-top: -4em;
-  justify-self: flex-end;
-  align-self: flex-end;
-}
-
-*/
 
 /******************************************
 /* ADDITIONAL STYLES
@@ -100,8 +74,13 @@ img {
   border: none !important;
 }
 
-.mox-inventorylist-new {  
+/* .mox-inventorylist-new {  
   max-width: 990px;
+  padding: 1rem;
+} */
+
+.mox-inventorydetail-new {
+  padding: 1rem;
 }
 
 .mox-bootstrap .btn-primary {
@@ -121,6 +100,10 @@ img {
   align-items: center;
   padding: 0 2em;
 }
+
+.nav-bar ul {
+  padding: 0;
+}
 .nav-links {
   display: flex;
   list-style: none;
@@ -130,12 +113,6 @@ img {
 .nav-item {
   padding: 0.5em 1.25em;
 }
-
-/* nav img {
-  width: 5em;
-  border-radius: 100%;
-  padding-top: 0.5em;
-} */
 
 a {
   color: white;
@@ -171,6 +148,59 @@ span {
 a {
   font-size: var(--font-size--default);
 }
+
+.badge-pill {
+  background: black !important;
+}
+
+#layoutsortform {
+  display: none;
+}
+
+/******************************************
+/* Header
+/*******************************************/
+header {   
+    display: flex;    
+    justify-content: center;    
+    text-align: center;
+    max-width: 990px;
+    width: 100%;  
+    background: black;  
+}
+/******************************************
+/* Main
+/*******************************************/
+.main {   
+  display: flex;
+  justify-content: center;  
+  max-width: 990px;
+  /* width: 100%;   */
+  background: black;  
+}
+
+.main h1 {
+  text-align: center;
+}
+/******************************************
+/* Footer
+/*******************************************/
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; 
+  max-width: 990px;
+  width: 100%;
+  gap: 2rem;
+  background: black; 
+}
+
+.footer strong {
+  font-size: var(--font-size--medium);
+}
+
+
 /******************************************
 /* media query
 /*******************************************/
