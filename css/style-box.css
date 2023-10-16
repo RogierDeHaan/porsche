@@ -63,6 +63,7 @@ html {
   padding: 1rem;
 }
 
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
@@ -176,7 +177,7 @@ header {
   justify-content: center;  
   max-width: 990px;
   /* width: 100%;   */
-  background: black;  
+  background: black;   
 }
 
 .main h1 {
@@ -193,7 +194,7 @@ header {
   max-width: 990px;
   width: 100%;
   gap: 2rem;
-  background: black; 
+  background: black;  
 }
 
 .footer strong {
@@ -221,6 +222,12 @@ header {
     width: 100%;
     padding: 0;
   }
+
+header,
+.main,
+.footer {
+  padding: 0 1rem;
+}
   
 }
 
