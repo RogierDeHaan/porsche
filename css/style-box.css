@@ -194,7 +194,8 @@ header {
   max-width: 990px;
   width: 100%;
   gap: 2rem;
-  background: black;  
+  background: black;
+  margin-bottom: 1rem;  
 }
 
 .footer strong {
