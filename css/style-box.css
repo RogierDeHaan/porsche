@@ -75,11 +75,6 @@ img {
   border: none !important;
 }
 
-/* .mox-inventorylist-new {  
-  max-width: 990px;
-  padding: 1rem;
-} */
-
 .mox-inventorydetail-new {
   padding: 1rem;
 }
@@ -175,8 +170,7 @@ header {
 .main {   
   display: flex;
   justify-content: center;  
-  max-width: 990px;
-  /* width: 100%;   */
+  max-width: 990px;  
   background: black;   
 }
 
@@ -201,7 +195,15 @@ header {
 .footer strong {
   font-size: var(--font-size--medium);
 }
+.mox-product-column-body {
+  padding-left: 0;
+  padding-right: 0;
+}
 
+
+/* .mox-spec-column {
+  margin: 0 .25rem;
+} */
 
 /******************************************
 /* media query
@@ -212,9 +214,9 @@ header {
   :root {
     font-size: 62.5%;
   }
-  .car {
+  /* .car {
     flex-basis: 30%;
-  }
+  } */
 }
 
 @media (max-width: 500px) {
