@@ -49,6 +49,15 @@ body {
   justify-content: center;
 }
 
+@font-face {
+  font-family: AlrightSansRegular;
+  src:  url(/fonts/Alright-Sans-Regular-Regular.ttf)
+}
+
+html {
+  font-family: AlrightSansRegular;
+}
+
 /******************************************
 /* LAYOUT
 /*******************************************/
