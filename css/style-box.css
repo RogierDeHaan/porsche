@@ -201,6 +201,13 @@ header {
 h3 {
   color: black;
 }
+
+.btn, .btn-outline-primary, .mox-btn-outline {
+  color: pink;
+}
+#mox-contact-phone span {
+  color: var(--color-white);
+}
 /******************************************
 /* Footer
 /*******************************************/
