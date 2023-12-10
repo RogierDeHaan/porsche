@@ -202,8 +202,8 @@ h3 {
   color: black;
 }
 
-.btn, .btn-outline-primary, .mox-btn-outline {
-  color: pink;
+.mox-attribute {
+  color: var(--color-white);
 }
 #mox-contact-phone span {
   color: var(--color-white);
@@ -240,7 +240,13 @@ h3 {
 /* media query
 /*******************************************/
 
-
+@media screen and (max-width: 996px){
+.mox-detail-header .mox-btn-outline {
+    height: 40px!important;
+    width: 50px!important;
+    background: var(--color-white);
+}
+}
 @media (min-width: 990px) {
   :root {
     font-size: 62.5%;
