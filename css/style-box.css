@@ -37,11 +37,12 @@
   --color-dark-blue: rgb(43, 120, 190);
   --color-light-blue: rgb(25, 145, 238);
   --color-electric: rgb(197, 191, 225);
+  --color-white: rgb(255, 255, 255);
 }
 
 body {
   background: black;
-  color: white;
+  color: var(--color-white);
   display: flex;
   justify-self: center;
   flex-direction: column;
@@ -77,7 +78,7 @@ html {
 /* ADDITIONAL STYLES
 /*******************************************/
 img {
-  border: 2px solid var(--color-bronze) !important;
+  border: 2px solid var(--color-white) !important;
 }
 
 .mox-nap {
@@ -97,6 +98,14 @@ img {
   background: var(--color-bronze);
   color: black;
   border: none;
+}
+
+.mox-column-financing-price {
+  border: 2px solid var(--color-white);
+}
+
+a.mox-lease-price:hover {
+  opacity: .8;
 }
 
 .nav-bar {
@@ -120,19 +129,20 @@ img {
 }
 
 a {
-  color: white;
+  color: var(--color-white);
   text-decoration: none;
 }
 
 a:hover,
 a:focus {  
-  color: var(--color-bronze);
-  animation: fadeIn .3s
+  color: var(--color-white);
+  opacity: .8;
+  /* animation: fadeIn .3s */
 }
 
 @keyframes fadeIn {
-  0% { color: white; }
-  100% { opacity: 1; }
+  0% { color: var(--color-white); }
+  100% { opacity: .8; }
 }
 
 h1 {
@@ -183,8 +193,13 @@ header {
   background: black;   
 }
 
-.main h1 {
+.main h1,
+.main h2 {
   text-align: center;
+}
+
+h3 {
+  color: black;
 }
 /******************************************
 /* Footer
