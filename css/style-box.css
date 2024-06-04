@@ -38,10 +38,11 @@
   --color-light-blue: rgb(25, 145, 238);
   --color-electric: rgb(197, 191, 225);
   --color-white: rgb(255, 255, 255);
+  --color-black: rgb(29, 29, 27);
 }
 
 body {
-  background: black;
+  background: var(--color-black);
   color: var(--color-white);
   display: flex;
   justify-self: center;
@@ -65,12 +66,30 @@ html {
 
 html {
   padding: 0 5rem;
+  background: var(--color-black);
 }
 
 .mox-bootstrap {
   justify-self: center;
   max-width: 990px;
   padding: 1rem;
+  background: var(--color-black);
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center; 
+  margin-top: 1.5rem;
+  background: var(--color-black);
+}
+
+.headerh1 {
+  display: flex;
+  justify-items: center;
+  align-items: center;  
+  height: 5rem;
 }
 
 
@@ -79,6 +98,13 @@ html {
 /*******************************************/
 img {
   border: 2px solid var(--color-white) !important;
+}
+
+.logo {
+  align-self: center;
+  max-block-size: 250%;
+  padding-top: 2rem;
+  border: none !important;  
 }
 
 .mox-nap {
@@ -95,13 +121,13 @@ img {
 }
 
 .mox-bootstrap .btn-primary:hover {
-  background: var(--color-bronze);
-  color: black;
+  background: var(--color-bronze) !important;
+  color: var(--color-black);
   border: none;
 }
 
 .mox-column-financing-price {
-  border: 2px solid var(--color-white);
+  border: 2px solid var(--color-white);  
 }
 
 a.mox-lease-price:hover {
@@ -165,7 +191,7 @@ a {
 }
 
 .badge-pill {
-  background: black !important;
+  background: var(--color-black) !important;
 }
 
 #layoutsortform {
@@ -181,7 +207,7 @@ header {
     text-align: center;
     max-width: 990px;
     width: 100%;  
-    background: black;  
+    background: var(--color-black);  
 }
 /******************************************
 /* Main
@@ -190,7 +216,7 @@ header {
   display: flex;
   justify-content: center;  
   max-width: 990px;  
-  background: black;   
+  background: var(--color-black);   
 }
 
 .main h1,
@@ -199,7 +225,7 @@ header {
 }
 
 h3 {
-  color: black;
+  color: var(--color-black);
 }
 
 .mox-attribute {
@@ -219,7 +245,7 @@ h3 {
   max-width: 990px;
   width: 100%;
   gap: 2rem;
-  background: black;
+  background: var(--color-black);
   margin-bottom: 1rem;  
 }
 
