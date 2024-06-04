@@ -101,10 +101,10 @@ img {
 }
 
 .logo {
-  align-self: center;
-  max-block-size: 250%;
-  padding-top: 2rem;
-  border: none !important;  
+  align-self: center;  
+  padding-top: 5rem;
+  border: none !important; 
+  height: 20rem; 
 }
 
 .mox-nap {
